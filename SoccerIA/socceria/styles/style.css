@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'StrategicPlanningDemo' ;
+  src: url('/static/fonts/StrategicPlanningDemo-PVKlr.ttf') format('truetype');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #48cf2d;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-family: 'StrategicPlanningDemo', sans-serif;
+  }
+  
+  h2 {
+    font-family: 'StrategicPlanningDemo', sans-serif; 
+    font-size: 36px;
+    color: transparent; 
+    background-image: linear-gradient(to right, #ffff00, #efa924); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+  }
+  
+  .search-form {
+    margin-bottom: 20px;
+  }
+  
+  .search-form textarea {
+    width: 100%;
+    max-width: 400px;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .search-form button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .response {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
